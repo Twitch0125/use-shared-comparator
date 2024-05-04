@@ -3,6 +3,8 @@ takes in a comparator function and returns a `compare`
 function and an `isException` ref that will be the least common return value of
 all of the return values of the `compare` function.
 
+Its useful for tracking loading states across X amount of components :)
+
 ## Usage
 ```ts
 import { useSharedComparator } from "@twitch0125/use-shared-comparator";
